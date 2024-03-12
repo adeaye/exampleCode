@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge Component test with snapshot applies custom className 1`] = `
+<div>
+  <div
+    class="inline-flex items-center gap-x-1 rounded-md border px-[6px] py-[2px] text-xs border-rp-green-200 bg-rp-green-50 text-rp-green-600 custom-class"
+  >
+    Custom Class Badge
+  </div>
+</div>
+`;
+
+exports[`Badge Component test with snapshot renders with a danger variant 1`] = `
+<div>
+  <div
+    class="inline-flex items-center gap-x-1 rounded-md border px-[6px] py-[2px] text-xs border-rp-red-200 bg-rp-red-50 text-rp-red-600"
+  >
+    danger Badge
+  </div>
+</div>
+`;
+
+exports[`Badge Component test with snapshot renders with a info variant 1`] = `
+<div>
+  <div
+    class="inline-flex items-center gap-x-1 rounded-md border px-[6px] py-[2px] text-xs border-rp-blue-200 bg-rp-blue-50 text-rp-blue-600"
+  >
+    info Badge
+  </div>
+</div>
+`;
+
+exports[`Badge Component test with snapshot renders with a success variant 1`] = `
+<div>
+  <div
+    class="inline-flex items-center gap-x-1 rounded-md border px-[6px] py-[2px] text-xs border-rp-green-200 bg-rp-green-50 text-rp-green-600"
+  >
+    success Badge
+  </div>
+</div>
+`;
+
+exports[`Badge Component test with snapshot renders with a warning variant 1`] = `
+<div>
+  <div
+    class="inline-flex items-center gap-x-1 rounded-md border px-[6px] py-[2px] text-xs border-rp-orange-200 bg-rp-orange-50 text-rp-orange-600"
+  >
+    Warning Badge
+  </div>
+</div>
+`;
+
+exports[`Badge Component test with snapshot renders with an icon 1`] = `
+<div>
+  <div
+    class="inline-flex items-center gap-x-1 rounded-md border px-[6px] py-[2px] text-xs border-rp-green-200 bg-rp-green-50 text-rp-green-600"
+  >
+    <svg
+      class="h-4 w-4"
+      fill="none"
+      height="1em"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+        stroke="none"
+      />
+      <path
+        d="M17 15.328c2.414 -.718 4 -1.94 4 -3.328c0 -2.21 -4.03 -4 -9 -4s-9 1.79 -9 4s4.03 4 9 4"
+      />
+      <path
+        d="M9 13l3 3l-3 3"
+      />
+    </svg>
+    Badge with Icon
+  </div>
+</div>
+`;
+
+exports[`Badge Component test with snapshot renders with default variant 1`] = `
+<div>
+  <div
+    class="inline-flex items-center gap-x-1 rounded-md border px-[6px] py-[2px] text-xs border-rp-green-200 bg-rp-green-50 text-rp-green-600"
+  >
+    Default Badge
+  </div>
+</div>
+`;
